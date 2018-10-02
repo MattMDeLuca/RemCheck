@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="exportResultsAnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="remCheckUI.ExportResultsController">
+   <children>
+      <Pane fx:id="topPane" prefHeight="50.0" prefWidth="800.0" AnchorPane.bottomAnchor="550.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <CheckBox fx:id="selectAllCheckBox" layoutX="64.0" layoutY="16.0" mnemonicParsing="false" onAction="#selectAllCheckBoxAction" text="Select All" />
+            <Button fx:id="exportResultsOKButton" layoutX="495.0" layoutY="12.0" mnemonicParsing="false" onAction="#exportResultsOKButtonClick" prefHeight="18.0" prefWidth="41.0" text="OK" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
